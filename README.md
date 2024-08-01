@@ -10,6 +10,12 @@ The project directory contains the following main folders:
 2. `env`: Virtual environment for the Python backend.
 3. `frontend`: Contains the React project named `auth-app`.
 
+## Default Login Credentials
+Username : akmaru
+Password : abc123
+
+You can add register more users inside the fastAPI application
+
 ## Getting Started
 
 Follow the steps below to set up and run the project locally.
@@ -83,6 +89,19 @@ Follow the steps below to set up and run the project locally.
     - **Configure Tailwind:**
 
         Add the paths to all of your template files in your `tailwind.config.js` file.
+
+        ```css
+        /** @type {import('tailwindcss').Config} */
+        module.exports = {
+          content: [
+            "./src/**/*.{js,jsx,ts,tsx}",
+          ],
+          theme: {
+            extend: {},
+          },
+          plugins: [],
+        }
+        ```
 
     - **Add Tailwind Directives:**
 

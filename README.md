@@ -11,8 +11,7 @@ The project directory contains the following main folders:
 3. `frontend`: Contains the React project named `auth-app`.
 
 ## Default Login Credentials
-Username : akmaru
-Password : abc123
+Username : akmaru \ Password : abc123
 
 You can add register more users inside the fastAPI application
 

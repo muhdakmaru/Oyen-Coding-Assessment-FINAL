@@ -1,4 +1,4 @@
-# Full Stack Application Setup
+# Oyen Insurance Coding Assessment Setup
 
 This project is a full-stack application involving a Python backend and a React frontend. The backend provides API endpoints, while the frontend is built with React, using Tailwind CSS for styling and React Router for navigation.
 
